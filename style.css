@@ -3,6 +3,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -149,7 +150,7 @@ a:hover {
 section {
   padding-top: 4vh;
   height: 96vh;
-  margin: 0 10rem;
+  margin: 10rem;
   box-sizing: border-box;
   min-height: fit-content;
 }
@@ -363,7 +364,7 @@ article .icon {
 
 #projects {
   position: relative;
-  margin: 0 5rem;
+  margin: 5rem 5rem;
 }
 
 .projects-grid {
@@ -430,10 +431,10 @@ article .icon {
 
 /* ORGANIZATION SECTION */
 
-#organizations {
+#organisations {
   position: relative;
   width: 80%;
-  margin: 0 auto;
+  margin: 15rem auto;
 }
 
 .organisation-sub-title {
@@ -456,8 +457,8 @@ article .icon {
   background: white;
   border-radius: 2rem;
   border: 0.1rem solid rgb(163, 163, 163);
-  margin: 1rem;
-  padding: 1.5rem;
+  margin: 0.5rem;
+  padding: 3rem;
   text-align: center;
 }
 
