@@ -9,14 +9,14 @@
   <link rel="stylesheet" href="mediaqurie.css" />
 </head>
 <body>
-  <nav id="desktop-nav">
-    <div class="logo"></div>
-    <div>
+  <nav>
+    <div class="logo">Ramya Koneti</div>
+    <div class="nav-links-container"> <!-- Add this container -->
       <ul class="nav-links">
         <li><a href="#about">About</a></li>
-        <li><a href="#experience">Experience</a></li>
         <li><a href="#projects">Projects</a></li>
-        <li><a href="#organisations">Organizations</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#organization">Organization</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
     </div>
@@ -35,7 +35,7 @@
       <h1 class="title">Ramya</h1>
       <p class="section__text__p2">Software Developer</p>
       <div class="btn-container">
-        <button class="btn btn-color-2" onclick="window.open('./assets/Ramya_Koneti_Resume.pdf')">Download CV</button>
+        <button class="btn btn-color-1" onclick="window.open('./assets/Ramya_Koneti_Resume.pdf')">Download CV</button>
         <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Info</button>
       </div>
       <div id="socials-container">
@@ -47,7 +47,7 @@
   
   <section id="about">
     <p class="section__text__p1"></p>
-    <h1 class="title">About Me</h1>
+    <h1 class="title">About</h1>
     <div class="section-container">
       <div class="section__pic-container">
         <img src="assets\about-pic.png" alt="Profile picture" class="about-pic" />
@@ -172,7 +172,7 @@
         <h2 class="experience-sub-title project-title">Portfolio</h2>
         <div class="btn-container">
           <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/Ramya-koneti/Potfolio'">Github</button>
-          <button class="btn btn-color-2 project-btn" onclick="location.href='https://ramya-koneti.github.io/Potfolio/'">Look up</button>
+          <button class="btn btn-color-2 project-btn" onclick="location.href='https://ramyakoneti.netlify.app/'">Look up</button>
         </div>
       </div>
       <div class="details-container color-container">
@@ -232,6 +232,7 @@
             <img src="assets/streetcause.png" alt="Street Cause" class="organization-img" />
           </div>
           <h2 class="organisation-sub-title project-title">Street Cause</h2>
+          <br>
           <p>Logistic Head</p>
           <br>
           <div class="btn-container">
